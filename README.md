@@ -48,7 +48,7 @@ Type ".help" for more information.
   bun init
   ```
 
-  <samp>bun 在初始化时就已经下载了 `@types/node` 是一个即开即用的构建工具</samp>
+  <samp>bun 是一个即开即用的构建工具，在初始化时就已经下载了 `@types/node` </samp>
 
   <samp>可以使用 bun 内置的 `--hot` 和 `--watch` 实现热加载</samp>
 
@@ -178,8 +178,6 @@ await writeFile(decrypted_data,leftMoveDecryptedData,'utf8');
 
 - <samp>[CommonJS loads modules synchronously, ES modules are asynchronous](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/)</samp>
 
-  <samp>commonjs 在加载模块时是同步的，而 ES modules 是异步加载的</samp>
-  
   > <samp>同步加载具有相互依赖关系</samp>
   >
   > <samp>参考：[异步与同步的相似与不同](https://www.mendix.com/blog/asynchronous-vs-synchronous-programming/)</samp>
